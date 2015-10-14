@@ -1,0 +1,272 @@
+<courses>
+	<course id="62-120">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="62-125">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="62-130">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="62-139">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="62-140">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="62-141">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="62-190">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="62-369">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="62-380">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="65-205">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="65-250">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	
+	
+	
+	
+	
+	<course id="60-100">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-104">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-106">
+		<term>f</term>
+		<term>w</term>
+	</course>
+	<course id="60-140">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-141">
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-205">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-207">
+		<term>f</term>
+		<term>w</term>
+	</course>
+	<course id="60-209">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-212">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-214">
+		<term>w</term>
+	</course>
+	<course id="60-231">
+		<term>f</term>
+	</course>
+	<course id="60-254">
+		<term>f</term>
+		<term>w</term>
+	</course>
+	<course id="60-256">
+		<term>f</term>
+		<term>w</term>
+	</course>
+	<course id="60-265">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-266">
+		<term>f</term>
+		<term>w</term>
+	</course>
+	<course id="60-270">
+		<term>f</term>
+		<term>w</term>
+	</course>
+	<course id="60-275">
+		<term>f</term>
+	</course>
+	<course id="60-280">
+		<term>w</term>
+	</course>
+	<course id="60-305">
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-307">
+		<term>w</term>
+	</course>
+	<course id="60-311">
+		<term>f</term>
+	</course>
+	<course id="60-315">
+		<term>f</term>
+		<term>w</term>
+	</course>
+	<course id="60-322">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-330">
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-334">
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-340">
+		<term>w</term>
+	</course>
+	<course id="60-350">
+		<term>f</term>
+	</course>
+	<course id="60-352">
+		<term>f</term>
+	</course>
+	<course id="60-354">
+		<term>f</term>
+	</course>
+	<course id="60-367">
+		<term>f</term>
+	</course>
+	<course id="60-368">
+		<term>w</term>
+	</course>
+	<course id="60-371">
+		<term>w</term>
+	</course>
+	<course id="60-375">
+		<term>s</term>
+	</course>
+	<course id="60-376">
+		<term>f</term>
+	</course>
+	<course id="60-377">
+		<term>f</term>
+	</course>
+	<course id="60-411">
+		<term>w</term>
+	</course>
+	<course id="60-415">
+		<term>f</term>
+	</course>
+	<course id="60-420">
+		<term>w</term>
+	</course>
+	<course id="60-422">
+		<term>f</term>
+	</course>
+	<course id="60-425">
+		<term>w</term>
+	</course>
+	<course id="60-440">
+		<term>f</term>
+	</course>
+	<course id="60-450">
+		<term>w</term>
+	</course>
+	<course id="60-454">
+		<term>w</term>
+	</course>
+	<course id="60-460">
+		<term>f</term>
+	</course>
+	<course id="60-467">
+		<term>f</term>
+	</course>
+	<course id="60-468">
+		<term>f</term>
+	</course>
+	<course id="60-470">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-473">
+		<term>f</term>
+	</course>
+	<course id="60-474">
+		<term>w</term>
+	</course>
+	<course id="60-475">
+		<term>f</term>
+	</course>
+	<course id="60-476">
+		<term>f</term>
+	</course>
+	<course id="60-477">
+		<term>w</term>
+	</course>
+	<course id="60-480">
+		<term>w</term>
+	</course>
+	<course id="60-496">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-497">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-498">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	<course id="60-499">
+		<term>f</term>
+		<term>w</term>
+		<term>s</term>
+	</course>
+	
+	
+</courses>
