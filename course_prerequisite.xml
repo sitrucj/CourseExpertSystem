@@ -1,5 +1,4 @@
 <courses>
-
 	<course id="62-141">
 		<prereq><or>62-139</or><or>62-140</or></prereq>
 	</course>
@@ -19,9 +18,6 @@
 	<course id="65-250">
 		<prereq><or>62-141</or></prereq>
 	</course>
-
-
-
 	<course id="60-141">
 		<prereq><or>60-100</or><or>62-140</or></prereq>
 		<prereq><or>60-140</or></prereq>
@@ -226,7 +222,7 @@
 		<prereq><or>60-311</or><or>60-315</or><or>60-322</or><or>60-330</or><or>60-334</or><or>60-340</or><or>60-350</or><or>60-352</or>
 		<or>60-354</or><or>60-367</or><or>60-368</or><or>60-371</or><or>60-375</or><or>60-376</or><or>60-377</or></prereq>
 	</course>
-	
+
 </courses>
 
 

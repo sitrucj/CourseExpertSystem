@@ -26,17 +26,9 @@
 	<course id="65-250">
 		<antireq><or>65-205</or></antireq>
 	</course>
-	
-	
-	
-	
-	
-	
-	
 	<course id="60-106">
 		<antireq><or>60-140</or></antireq>
 	</course>
-	
 	<course id="60-106">
 		<antireq><or>60-140</or></antireq>
 	</course>
@@ -49,7 +41,6 @@
 	<course id="60-499">
 		<antireq><or>60-496</or></antireq>
 	</course>
-	
 </courses>
 
 
