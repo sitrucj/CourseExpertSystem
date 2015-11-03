@@ -1,4 +1,4 @@
-<courses>
+ <courses>
 	<course id="62-141">
 		<prereq><or>62-139</or><or>62-140</or></prereq>
 	</course>
