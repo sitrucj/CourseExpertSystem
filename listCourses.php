@@ -1,4 +1,5 @@
 <?php
+
 //load course programs
 	$coursePrograms = simplexml_load_file('course_programs.xml') or die("error: can't load course_programs.xml");
 //print courses by program

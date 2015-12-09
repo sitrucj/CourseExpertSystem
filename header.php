@@ -36,15 +36,26 @@
 	  <!-- menu -->
 	  <div  class="topnavlinks">
 		  <div class="container">
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+			  </button>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+			  <ul class="nav navbar-nav">
+				<li ><a href="index.php">Home</a></li>
+				<li ><a href="http://www1.uwindsor.ca/cs/" target="_blank">CS Homepage</a></li>
+				<li ><a href="http://web4.uwindsor.ca/units/registrar/calendars/undergraduate/cur.nsf/982f0e5f06b5c9a285256d6e006cff78/40a4d00a28a9d3e685257362006c8367!OpenDocument" target="_blank">CS Programs</a></li>
+				<li ><a href="http://web4.uwindsor.ca/units/registrar/calendars/undergraduate/cur.nsf/Search+Main/FB6695172A9A1BA385257364004A8752?OpenDocument" target="_blank">CS Courses</a></li>
+				<li><a href="admin.php">Admin Pannel</a></li>
+				</ul>
 
-				  </button>
-				</div>
-				<div id="navbar" class="navbar-collapse collapse">
 
-				</div><!--/.nav-collapse -->
+				<ul class="nav navbar-nav pull-right">
+					<li><a href=""></a></li>
+				</ul>
+
+			</div><!--/.nav-collapse -->
 		  </div>
 	  </div>
 
