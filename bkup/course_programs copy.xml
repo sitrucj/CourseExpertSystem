@@ -1,0 +1,398 @@
+<courses>
+	<program name="Bachelor of Computer Science (General)">
+		<course id="60-100"></course>
+		<course id="60-140"></course>
+		<course id="60-141"></course>
+		<course id="60-212"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+		<course id="60-266"></course>
+		<course id="60-322"></course>
+		<course id="60-315"></course>
+		<course id="60-330"></course>
+		<course id="60-334"></course>
+		<course id="60-367"></course>
+		<course id="62-120"></course>
+		<course id="62-125"></course>
+		<course id="62-130"></course>
+		<course id="62-140"></course>
+		<course id="62-139"></course>
+		<course id="65-205"></course>
+
+		<note>
+			Other requirements:
+			(a)one course from Arts/Languages, and one from Social Sciences;
+			(b)eleven other courses from any area of study, including Computer Science.
+		</note>
+	</program>
+
+	<program name="Bachelor of Computer Science (Honours)
+(This program is available with or without co-op)">
+		<course id="60-100"></course>
+		<course id="60-140"></course>
+		<course id="60-141"></course>
+		<course id="60-212"></course>
+		<course id="60-214"></course>
+		<course id="60-231"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+		<course id="60-266"></course>
+		<course id="60-311"></course>
+		<course id="60-315"></course>
+		<course id="60-322"></course>
+		<course id="60-330"></course>
+		<course id="60-354"></course>
+		<course id="60-367"></course>
+		<course id="60-440"></course>
+		<course id="60-454"></course>
+		<course id="60-496"></course>
+		<course id="60-499"></course>
+		<course id="62-141"></course>
+		<course id="62-190"></course>
+		<course id="62-369"></course>
+		<course id="62-380"></course>
+		<course id="65-205"></course>
+		<course id="65-250"></course>
+
+
+		<note>
+			Other requirements:
+			(a) plus one additional Computer Science course at the 300 or 400 level.
+			(b)three courses from Arts, Languages or Social Sciences, with at least one from Arts/Languages and one from Social Sciences;
+			(c)three courses at the 200-400 level from Mathematics/Statistics or Computer Science (excluding 60-205, 60-207, 60-209, 60-270, 60-305, 60-307);
+			(d) seven other courses from any area of study, including Computer Science.
+		</note>
+	</program>
+
+		<program name="Bachelor of Computer Science (Honours Applied Computing)
+(This program is available with or without co-op)">
+		<course id="60-100"></course>
+		<course id="60-140"></course>
+		<course id="60-141"></course>
+		<course id="60-212"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+		<course id="60-266"></course>
+		<course id="60-315"></course>
+		<course id="60-321"></course>
+		<course id="60-322"></course>
+		<course id="60-330"></course>
+		<course id="60-334"></course>
+		<course id="60-340"></course>
+		<course id="60-367"></course>
+		<course id="60-415"></course>
+		<course id="60-420"></course>
+		<course id="60-422"></course>
+		<course id="60-425"></course>
+		<course id="60-426"></course>
+		<course id="60-499"></course>
+		<course id="62-120"></course>
+		<course id="62-125"></course>
+		<course id="62-130"></course>
+		<course id="62-140"></course>
+		<course id="62-139"></course>
+		<course id="65-205"></course>
+
+		<note>
+			Other requirements:
+			(a)and two other Computer Science major courses
+			(b)One course from Arts/Languages, and one from Social Sciences
+			(c)Thirteen other courses from any area of study, including Computer Science
+		</note>
+	</program>
+
+			<program name="Bachelor of Science (Honours Computer Information Systems)">
+		<course id="60-100"></course>
+		<course id="60-140"></course>
+		<course id="60-141"></course>
+		<course id="60-212"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+		<course id="60-266"></course>
+		<course id="60-315"></course>
+		<course id="60-321"></course>
+		<course id="60-322"></course>
+		<course id="60-330"></course>
+		<course id="60-334"></course>
+		<course id="60-340"></course>
+		<course id="60-393"></course>
+		<course id="60-499"></course>
+		<course id="62-120"></course>
+		<course id="62-125"></course>
+		<course id="62-130"></course>
+		<course id="62-140"></course>
+		<course id="62-139"></course>
+		<course id="65-205"></course>
+		<note>
+			Major requirements - Business: nine courses, including 70-151, 70-255, 75-100, 72-270,
+			and 74-231 plus four additional Business courses, but excluding 73-101, 73-102, 73-213, 73-220 and 73-320.
+
+			Other requirements:
+			(a)plus two additional Computer Science courses at the 300 or the 400 level.
+			(b)three courses from Arts, Languages or Social Sciences, with at least one from Arts/Languages and one from Social Sciences;
+			(c)six additional courses from any area of study excluding Business;
+			(d)41-110, 41-111.
+		</note>
+	</program>
+
+			<program name="Bachelor of Science (Honours Computer Science with Software Engineering Specialization)
+(This program is available with or without co-op)">
+		<course id="60-100"></course>
+		<course id="60-140"></course>
+		<course id="60-141"></course>
+		<course id="60-212"></course>
+		<course id="60-214"></course>
+		<course id="60-231"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+		<course id="60-266"></course>
+		<course id="60-280"></course>
+		<course id="60-311"></course>
+		<course id="60-315"></course>
+		<course id="60-322"></course>
+		<course id="60-330"></course>
+		<course id="60-354"></course>
+		<course id="60-367"></course>
+		<course id="60-440"></course>
+		<course id="60-411"></course>
+		<course id="60-454"></course>
+		<course id="60-480"></course>
+		<course id="60-496"></course>
+		<course id="60-499"></course>
+		<course id="62-120"></course>
+		<course id="62-125"></course>
+		<course id="62-140"></course>
+		<course id="62-139"></course>
+		<course id="62-141"></course>
+		<course id="62-190"></course>
+		<course id="65-205"></course>
+		<course id="65-250"></course>
+
+		<note>
+			Other requirements:
+(a) plus one additional Computer Science course.
+(b) any four of 24-210, 26-140, 34-129, 34-228, 46-115, 75-100, or 71-240
+(c) two courses from Arts, Languages or Social Sciences, including one from Arts/Languages and one from Social Sciences;
+(d) four additional courses from any area of study, including Computer Science.
+(e) one course at the 200-400 level from Mathematics/Statistics or Computer Science (excluding 60-205, 60-207, 60-209, 60-270, 60-305, 60-307).
+		</note>
+	</program>
+
+	<program name="Concurrent Bachelor of Computer Science (Honours) - Bachelor of Education">
+		<course id="60-100"></course>
+		<course id="60-140"></course>
+		<course id="60-141"></course>
+		<course id="60-212"></course>
+		<course id="60-214"></course>
+		<course id="60-231"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+		<course id="60-266"></course>
+		<course id="60-311"></course>
+		<course id="60-315"></course>
+		<course id="60-322"></course>
+		<course id="60-330"></course>
+		<course id="60-354"></course>
+		<course id="60-367"></course>
+		<course id="60-440"></course>
+		<course id="60-454"></course>
+		<course id="60-496"></course>
+		<course id="60-499"></course>
+		<course id="62-120"></course>
+		<course id="62-125"></course>
+		<course id="62-140"></course>
+		<course id="62-139"></course>
+		<course id="62-141"></course>
+		<course id="62-190"></course>
+		<course id="65-369"></course>
+		<course id="65-380"></course>
+		<course id="65-205"></course>
+		<course id="65-250"></course>
+
+		<note>
+Other requirements:(a) plus one additional Computer Science course at the 300 or 400 level.
+(b) four additional courses from Arts/Languages or Social Sciences chosen from the following list of courses: 01-209*, 02-100, 26-100*,
+ 26-128, 27-110, 27-111, 32-107, 34-129, 34-160*, 34-227*, 34-228*, 40-101, 40-262**, 45-130, 45-160, 45-170, 45-212*, 46-115, 46-116,
+ 46-223, 46-224**, 47-117, 47-118, 47-210, 53-100, 53-106, 53-120, 53-130, and 54-100.
+
+(* Recommended; ** Strongly recommended);(c) three courses at the 200-400 level from Mathematics/Statistics
+or Computer Science (excluding 60-205, 60-207, 60-270, 60-305);
+if Physics is the second teachable, three courses including Mathematics prerequisites for Physics courses not included under (a);
+(d) six other courses based on the second teachable as specified below:
+
+Second Teachable	Courses
+Biology	    Six Biology courses which satisfy the requirements for an Honours degree in Biological Sciences, including 55-140 and 55-141;
+Chemistry	Six Chemistry courses which satisfy the requirements for an Honours degree in Chemistry, including 59-140 and 59-141;
+Physics	    Six Physics courses which satisfy the requirements for an Honours degree in Physics, including 64-140 and 64-141;
+		</note>
+	</program>
+
+			<program name="Other Combined Honours Programs">
+		<course id="60-100"></course>
+		<course id="60-140"></course>
+		<course id="60-141"></course>
+		<course id="60-212"></course>
+		<course id="60-214"></course>
+		<course id="60-231"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+		<course id="60-266"></course>
+		<course id="60-315"></course>
+		<course id="62-120"></course>
+		<course id="62-125"></course>
+		<course id="62-140"></course>
+		<course id="62-139"></course>
+		<course id="62-141"></course>
+		<course id="62-190"></course>
+		<course id="65-369"></course>
+		<course id="65-380"></course>
+		<course id="65-205"></course>
+		<course id="65-250"></course>
+		<note>
+	Other requirements:
+(a) plus three additional Computer Science courses at the 300 level or above.
+(b)any additional, non-major requirements as determined by the second area of study;
+(c)additional courses, if necessary, from any area of study to a total of forty courses.
+		</note>
+	</program>
+
+	<program name="Minor in Computer Science">
+		<course id="60-100"></course>
+		<course id="60-140"></course>
+		<course id="60-141"></course>
+		<course id="60-205"></course>
+		<course id="60-212"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+
+		<note>
+	Other requirements:
+and two of 60-205, 60-254, 60-256, or 60-265.
+*NOTE: 60-205 has a prerequisite of 60-104. This is not part of the minor, but would have to be completed before taking 60-205.
+		</note>
+	</program>
+
+				<program name="Minor in Applied Information Technology">
+		<course id="60-104"></course>
+		<course id="60-106"></course>
+		<course id="60-205"></course>
+		<course id="60-207"></course>
+		<course id="60-270"></course>
+		<course id="60-209"></course>
+		<course id="60-305"></course>
+		<course id="60-307"></course>
+
+		<note>
+	Other requirements:
+and two of 60-270, 60-209, 60-305 and 60-307.
+		</note>
+	</program>
+
+		<program name="Major and Minor Concentrations - Bachelor of Arts and Science (BAS)">
+		<course id="60-100"></course>
+		<course id="60-212"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+		<course id="60-315"></course>
+		<course id="60-322"></course>
+		<course id="60-330"></course>
+		<course id="60-334"></course>
+		<course id="60-367"></course>
+		<course id="60-393"></course>
+		<course id="62-140"></course>
+		<course id="62-141"></course>
+
+		<note>
+	Other requirements:
+(a) Major Concentration: one course at the 300-level or above. (Other requirements: 60-140, 60-141, 62-140, 62-141.)
+(b) Minor Concentration: one Computer Science course at the 200-level or above; and one Computer Science course at the 300-level or above.
+ (Other requirements: 60-140, 60-141, 62-140, 62-141.)
+		</note>
+	</program>
+
+	<program name="Certificate in Applied Information Technology">
+		<course id="60-104"></course>
+		<course id="60-106"></course>
+		<course id="60-140"></course>
+		<course id="60-205"></course>
+		<course id="60-209"></course>
+		<course id="60-270"></course>
+		<course id="60-305"></course>
+		<course id="60-307"></course>
+
+		<note>
+Other requirements:
+		</note>
+	</program>
+
+	<program name="Bachelor of Computer Science (General) for University Graduates">
+		<course id="60-100"></course>
+		<course id="60-140"></course>
+		<course id="60-141"></course>
+		<course id="60-212"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+		<course id="60-266"></course>
+		<course id="60-322"></course>
+		<course id="60-315"></course>
+		<course id="60-330"></course>
+		<course id="60-334"></course>
+		<course id="60-367"></course>
+		<course id="62-120"></course>
+		<course id="62-125"></course>
+		<course id="62-130"></course>
+		<course id="62-140"></course>
+		<course id="62-139"></course>
+		<course id="65-205"></course>
+		<note>
+			Other requirements:
+			(a)plus one additional Computer Science course.
+			(b) 62-120 or 62-125, 62-130 (or 62-140 or 62-139), and 65-205.
+		</note>
+	</program>
+
+		<program name="Bachelor of Computer Science (Honours Applied Computing) for University Graduates">
+		<course id="60-100"></course>
+		<course id="60-140"></course>
+		<course id="60-141"></course>
+		<course id="60-212"></course>
+		<course id="60-254"></course>
+		<course id="60-256"></course>
+		<course id="60-265"></course>
+		<course id="60-266"></course>
+		<course id="60-321"></course>
+		<course id="60-322"></course>
+		<course id="60-315"></course>
+		<course id="60-330"></course>
+		<course id="60-334"></course>
+		<course id="60-340"></course>
+		<course id="60-367"></course>
+		<course id="60-415"></course>
+		<course id="60-420"></course>
+		<course id="60-422"></course>
+		<course id="60-425"></course>
+		<course id="60-426"></course>
+		<course id="62-120"></course>
+		<course id="62-125"></course>
+		<course id="62-130"></course>
+		<course id="62-140"></course>
+		<course id="62-139"></course>
+		<course id="65-205"></course>
+		<note>
+			Other requirements:
+			(a) and two other Computer Science major courses.
+			(b) 62-120 (or 62-125), 62-130 (or 62-139 or 62-140), and 65-205.
+		</note>
+	</program>
+
+</courses>

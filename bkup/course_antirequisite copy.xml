@@ -1,0 +1,46 @@
+<courses>
+	<course id="62-125">
+		<antireq><or>62-120</or></antireq>
+	</course>
+	<course id="62-120">
+		<antireq><or>62-125</or></antireq>
+	</course>
+	<course id="62-130">
+		<antireq><or>62-140</or><or>62-139</or></antireq>
+	</course>
+	<course id="62-140">
+		<antireq><or>62-130</or><or>62-139</or></antireq>
+	</course>
+	<course id="62-139">
+		<antireq><or>62-130</or><or>62-140</or></antireq>
+	</course>
+	<course id="62-369">
+		<antireq><or>62-380</or></antireq>
+	</course>
+	<course id="62-380">
+		<antireq><or>62-369</or></antireq>
+	</course>
+	<course id="65-205">
+		<antireq><or>65-250</or></antireq>
+	</course>
+	<course id="65-250">
+		<antireq><or>65-205</or></antireq>
+	</course>
+	<course id="60-106">
+		<antireq><or>60-140</or></antireq>
+	</course>
+	<course id="60-106">
+		<antireq><or>60-140</or></antireq>
+	</course>
+	<course id="60-140">
+		<antireq><or>60-106</or></antireq>
+	</course>
+	<course id="60-496">
+		<antireq><or>60-499</or></antireq>
+	</course>
+	<course id="60-499">
+		<antireq><or>60-496</or></antireq>
+	</course>
+</courses>
+
+

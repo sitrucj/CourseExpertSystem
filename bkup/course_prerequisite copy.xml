@@ -1,0 +1,228 @@
+ <courses>
+	<course id="62-141">
+		<prereq><or>62-139</or><or>62-140</or></prereq>
+	</course>
+	<course id="62-190">
+		<prereq><or>60-100</or><or>62-120</or><or>62-125</or><or>62-126</or></prereq>
+	</course>
+	<course id="62-369">
+		<prereq><or>60-141</or></prereq>
+		<prereq><or>62-141</or></prereq>
+		<prereq><or>62-120</or><or>62-125</or><or>62-126</or></prereq>
+	</course>
+	<course id="62-380">
+		<prereq><or>62-215</or></prereq>
+		<prereq><or>62-216</or></prereq>
+		<prereq><or>62-120</or><or>62-125</or><or>62-126</or></prereq>
+	</course>
+	<course id="65-250">
+		<prereq><or>62-141</or></prereq>
+	</course>
+	<course id="60-141">
+		<prereq><or>60-100</or><or>62-140</or></prereq>
+		<prereq><or>60-140</or></prereq>
+	</course>
+	<course id="60-205">
+		<prereq><or>60-104</or></prereq>
+		<prereq><or>60-106</or><or>60-140</or></prereq>
+	</course>
+	<course id="60-207">
+		<prereq><or>60-104</or></prereq>
+		<prereq><or>60-205</or></prereq>
+	</course>
+	<course id="60-212">
+		<prereq><or>60-141</or></prereq>
+	</course>
+	<course id="60-214">
+		<prereq><or>60-100</or></prereq>
+		<prereq><or>60-212</or></prereq>
+	</course>
+	<course id="60-231">
+		<prereq><or>60-100</or></prereq>
+		<prereq><or>62-190</or></prereq>
+	</course>
+	<course id="60-254">
+		<prereq><or>60-100</or></prereq>
+		<prereq><or>60-141</or></prereq>
+	</course>
+	<course id="60-256">
+		<prereq><or>60-141</or></prereq>
+	</course>
+	<course id="60-265">
+		<prereq><or>60-140</or></prereq>
+	</course>
+	<course id="60-266">
+		<prereq><or>60-265</or></prereq>
+	</course>
+	<course id="60-270">
+		<prereq><or>60-205</or></prereq>
+	</course>
+	<course id="60-275">
+		<prereq><or>60-100</or><or>62-140</or></prereq>
+		<prereq><or>60-141</or></prereq>
+	</course>
+	<course id="60-280">
+		<prereq><or>60-212</or></prereq>
+	</course>
+	<course id="60-305">
+		<prereq><or>60-104</or></prereq>
+		<prereq><or>60-205</or></prereq>
+	</course>
+	<course id="60-307">
+		<prereq><or>60-270</or></prereq>
+	</course>
+	<course id="60-305">
+		<prereq><or>60-104</or></prereq>
+		<prereq><or>60-205</or></prereq>
+	</course>
+	<course id="60-311">
+		<prereq><or>60-212</or></prereq>
+		<prereq><or>60-254</or></prereq>
+	</course>
+	<course id="60-315">
+		<prereq><or>60-254</or></prereq>
+		<prereq><or>60-256</or><or>62-265</or></prereq>
+	</course>
+	<course id="60-322">
+		<prereq><or>60-212</or></prereq>
+		<prereq><or>60-254</or></prereq>
+	</course>
+	<course id="60-330">
+		<prereq><or>60-212</or></prereq>
+		<prereq><or>60-254</or></prereq>
+		<prereq><or>60-256</or></prereq>
+		<prereq><or>60-265</or><or>62-266</or></prereq>
+	</course>
+	<course id="60-334">
+		<prereq><or>60-212</or></prereq>
+		<prereq><or>60-254</or></prereq>
+	</course>
+	<course id="60-340">
+		<prereq><or>60-212</or></prereq>
+		<prereq><or>60-256</or></prereq>
+	</course>
+	<course id="60-350">
+		<prereq><or>60-212</or></prereq>
+		<prereq><or>60-254</or></prereq>
+		<prereq><or>60-256</or></prereq>
+		<prereq><or>60-265</or></prereq>
+	</course>
+	<course id="60-352">
+		<prereq><or>60-254</or></prereq>
+		<prereq><or>62-120</or></prereq>
+	</course>
+	<course id="60-354">
+		<prereq><or>60-214</or></prereq>
+		<prereq><or>60-231</or></prereq>
+		<prereq><or>60-254</or></prereq>
+	</course>
+	<course id="60-367">
+		<prereq><or>60-212</or></prereq>
+		<prereq><or>60-254</or></prereq>
+		<prereq><or>60-256</or></prereq>
+		<prereq><or>60-265</or></prereq>
+	</course>
+	<course id="60-368">
+		<prereq><or>60-330</or></prereq>
+		<prereq><or>60-367</or></prereq>
+	</course>
+	<course id="60-371">
+		<prereq><or>60-254</or></prereq>
+		<prereq><or>65-205</or><or>65-250</or></prereq>
+	</course>
+	<course id="60-375">
+		<prereq><or>60-212</or></prereq>
+		<prereq><or>60-254</or></prereq>
+		<prereq><or>60-256</or></prereq>
+	</course>
+	<course id="60-376">
+		<prereq><or>60-212</or></prereq>
+		<prereq><or>60-254</or></prereq>
+		<prereq><or>60-256</or></prereq>
+	</course>
+	<course id="60-377">
+		<prereq><or>60-254</or></prereq>
+		<prereq><or>60-212</or></prereq>
+	</course>
+	<course id="60-411">
+		<prereq><or>60-311</or></prereq>
+		<prereq><or>60-330</or></prereq>
+	</course>
+		<course id="60-415">
+		<prereq><or>60-315</or></prereq>
+		<prereq><or>60-330</or></prereq>
+	</course>
+		<course id="60-420">
+		<prereq><or>60-315</or></prereq>
+		<prereq><or>60-322</or></prereq>
+	</course>
+		<course id="60-422">
+		<prereq><or>60-322</or></prereq>
+	</course>
+	<course id="60-425">
+		<prereq><or>60-315</or></prereq>
+	</course>
+	<course id="60-440">
+		<prereq><or>60-214</or></prereq>
+		<prereq><or>60-231</or></prereq>
+		<prereq><or>60-254</or></prereq>
+	</course>
+	<course id="60-450">
+		<prereq><or>60-350</or></prereq>
+	</course>
+	<course id="60-454">
+		<prereq><or>60-231</or></prereq>
+		<prereq><or>60-254</or></prereq>
+		<prereq><or>60-354</or></prereq>
+	</course>
+	<course id="60-460">
+		<prereq><or>65-265</or><or>65-266</or></prereq>
+		<prereq><or>60-330</or></prereq>
+		<prereq><or>60-367</or></prereq>
+	</course>
+	<course id="60-467">
+		<prereq><or>60-367</or></prereq>
+	</course>
+	<course id="60-468">
+		<prereq><or>60-367</or></prereq>
+		<prereq><or>60-368</or></prereq>
+	</course>
+	<course id="60-470">
+		<prereq><or>60-315</or></prereq>
+		<prereq><or>60-322</or></prereq>
+		<prereq><or>60-330</or></prereq>
+	</course>
+	<course id="60-473">
+		<prereq><or>60-371</or></prereq>
+	</course>
+	<course id="60-474">
+		<prereq><or>60-371</or></prereq>
+	</course>
+	<course id="60-475">
+		<prereq><or>60-311</or><or>60-315</or><or>60-322</or><or>60-330</or><or>60-334</or><or>60-340</or><or>60-350</or><or>60-352</or>
+		<or>60-354</or><or>60-367</or><or>60-368</or><or>60-371</or><or>60-375</or><or>60-376</or><or>60-377</or></prereq>
+	</course>
+	<course id="60-476">
+		<prereq><or>60-311</or><or>60-315</or><or>60-322</or><or>60-330</or><or>60-334</or><or>60-340</or><or>60-350</or><or>60-352</or>
+		<or>60-354</or><or>60-367</or><or>60-368</or><or>60-371</or><or>60-375</or><or>60-376</or><or>60-377</or></prereq>
+		</course>
+	<course id="60-477">
+		<prereq><or>60-377</or></prereq>
+	</course>
+	<course id="60-480">
+		<prereq><or>60-311</or></prereq>
+		<prereq><or>60-322</or></prereq>
+		<prereq><or>60-330</or></prereq>
+	</course>
+	<course id="60-496">
+		<prereq><or>60-311</or><or>60-315</or><or>60-322</or><or>60-330</or><or>60-334</or><or>60-340</or><or>60-350</or><or>60-352</or>
+		<or>60-354</or><or>60-367</or><or>60-368</or><or>60-371</or><or>60-375</or><or>60-376</or><or>60-377</or></prereq>
+		</course>
+	<course id="60-499">
+		<prereq><or>60-311</or><or>60-315</or><or>60-322</or><or>60-330</or><or>60-334</or><or>60-340</or><or>60-350</or><or>60-352</or>
+		<or>60-354</or><or>60-367</or><or>60-368</or><or>60-371</or><or>60-375</or><or>60-376</or><or>60-377</or></prereq>
+	</course>
+
+</courses>
+
+
