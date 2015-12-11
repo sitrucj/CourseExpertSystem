@@ -47,7 +47,7 @@
 				<li ><a href="http://www1.uwindsor.ca/cs/" target="_blank">CS Homepage</a></li>
 				<li ><a href="http://web4.uwindsor.ca/units/registrar/calendars/undergraduate/cur.nsf/982f0e5f06b5c9a285256d6e006cff78/40a4d00a28a9d3e685257362006c8367!OpenDocument" target="_blank">CS Programs</a></li>
 				<li ><a href="http://web4.uwindsor.ca/units/registrar/calendars/undergraduate/cur.nsf/Search+Main/FB6695172A9A1BA385257364004A8752?OpenDocument" target="_blank">CS Courses</a></li>
-				<li><a href="admin.php">Admin Pannel</a></li>
+				<li><a href="/admin.php">Admin Pannel</a></li>
 				</ul>
 
 

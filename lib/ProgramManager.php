@@ -46,8 +46,6 @@ class Course
 		$this->winter = $winter;
 		$this->spring = $spring;
 	}
-
-
 } // end class Course
 
 
