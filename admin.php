@@ -15,12 +15,11 @@
   <div class="tab-content">
     <div class="tab-pane" id="listCourses">
       <h3>Course List by Program</h3>
-			<?php include './lib/listCourses.php'; ?>
+			<?php include './lib/listCourses.php';?>
 		</div>
-
 		<div class="active tab-pane" id="addCourse">
 			<h3>Add a Course to a Program</h3>
-			<form data-toggle="validator">
+			<form>
 				<div class="form-group row">
 					<label for="program" class="col-sm-2 form-control-label">Program</label>
 					<div class="col-sm-10">
@@ -69,7 +68,6 @@
 				</div>
 			</form>
 		</div>
-
 		<div class="tab-pane" id="removeCourse">
 			<h3>Remove Course from a Program</h3>
 			<form>
@@ -92,16 +90,53 @@
 				</div>
 				<div class="form-group row">
 					<div class="col-sm-offset-2 col-sm-10">
-						<button type="submit" class="btn btn-primary">Add Course</button>
+						<button type="submit" class="btn btn-primary">Remove Course</button>
 					</div>
 				</div>
 			</form>
 		</div>
 		<div class="tab-pane" id="addProgram">
 			<h3>Add Program</h3>
+			<form>
+				<div class="form-group row">
+					<label for="program" class="col-sm-2 form-control-label">Program</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="program" placeholder="Program Title: Computer Science General">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="courses" class="col-sm-2 form-control-label">Courses</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" id="course" placeholder="Course Numbers: ##-###, ##-###, ##-### ect.">
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-primary">Add Program</button>
+					</div>
+				</div>
+			</form>
 		</div>
 		<div class="tab-pane" id="removeProgram">
 			<h3>Remove Program</h3>
+			<form>
+				<div class="form-group row">
+					<label for="program" class="col-sm-2 form-control-label">Program</label>
+					<div class="col-sm-10">
+						<select class="form-control">
+							<option selected>Choose a program</option>
+							<option value="1">One</option>
+							<option value="2">Two</option>
+							<option value="3">Three</option>
+						</select>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-primary">Remove Program</button>
+					</div>
+				</div>
+			</form>
 		</div>
 	</div>
 </div>
