@@ -19,46 +19,41 @@
 		</div>
 		<div class="active tab-pane" id="addCourse">
 			<h3>Add a Course to a Program</h3>
-			<form>
+			<form action="./lib/addCourse.php" method="post">
 				<div class="form-group row">
 					<label for="program" class="col-sm-2 form-control-label">Program</label>
 					<div class="col-sm-10">
-						<select class="form-control">
-						<option selected>Choose a program</option>
-							<option value="1">One</option>
-							<option value="2">Two</option>
-							<option value="3">Three</option>
-						</select>
+						<?php include './lib/programBox.php' ?>
 					</div>
 				</div>
 				<div class="form-group row">
 					<label for="course" class="col-sm-2 form-control-label">Course</label>
 					<div class="col-sm-10">
-						<input class="form-control" id="course" placeholder="Course Number">
+						<input class="form-control" id="course" name="course" placeholder="Course Number">
 					</div>
 				</div>
 				<div class="form-group row">
-					<label for="Prereq" class="col-sm-2 form-control-label">Prerequisite</label>
+					<label for="prereq" class="col-sm-2 form-control-label">Prerequisite</label>
 					<div class="col-sm-10">
-						<input class="form-control" id="Prereq" placeholder="Prerequisites: 60-123 or 60-234, 60-345">
+						<input class="form-control" id="prereq" name="prereq" placeholder="Prerequisites: 60-123 or 60-234, 60-345">
 					</div>
 				</div>
 				<div class="form-group row">
-					<label for="Antireq" class="col-sm-2 form-control-label">Antirequisite</label>
+					<label for="antireq" class="col-sm-2 form-control-label">Antirequisite</label>
 					<div class="col-sm-10">
-						<input class="form-control" id="Antireq" placeholder="Antirequisites: 60-123 or 60-234, 60-345">
+						<input class="form-control" id="antireq" name="antireq" placeholder="Antirequisites: 60-123 or 60-234, 60-345">
 					</div>
 				</div>
 				<div class="form-group row">
 					<label class="col-sm-3">Semesters</label>
 					<label class="checkbox-inline col-sm-3">
-						<input type="checkbox" id="inlineCheckbox1" value="f"> Fall
+						<input type="checkbox" name="f"> Fall
 					</label>
 					<label class="checkbox-inline">
-						<input type="checkbox" id="inlineCheckbox2" value="w"> Winter
+						<input type="checkbox" name="w"> Winter
 					</label>
 					<label class="checkbox-inline col-sm-4">
-						<input type="checkbox" id="inlineCheckbox3" value="s"> Spring/Intersession
+						<input type="checkbox" name="s"> Spring/Intersession
 					</label>
 				</div>
 				<div class="form-group row">
@@ -70,16 +65,11 @@
 		</div>
 		<div class="tab-pane" id="removeCourse">
 			<h3>Remove Course from a Program</h3>
-			<form>
+			<form action="./lib/removeCourse.php" method="post">
 				<div class="form-group row">
 					<label for="program" class="col-sm-2 form-control-label">Program</label>
 					<div class="col-sm-10">
-						<select class="form-control">
-							<option selected>Choose a program</option>
-							<option value="1">One</option>
-							<option value="2">Two</option>
-							<option value="3">Three</option>
-						</select>
+						<?php include './lib/programBox.php' ?>
 					</div>
 				</div>
 				<div class="form-group row">
@@ -97,7 +87,7 @@
 		</div>
 		<div class="tab-pane" id="addProgram">
 			<h3>Add Program</h3>
-			<form>
+			<form action="./lib/addProgram.php" method="post">
 				<div class="form-group row">
 					<label for="program" class="col-sm-2 form-control-label">Program</label>
 					<div class="col-sm-10">
@@ -119,16 +109,11 @@
 		</div>
 		<div class="tab-pane" id="removeProgram">
 			<h3>Remove Program</h3>
-			<form>
+			<form action="./lib/removeProgram.php" method="post">
 				<div class="form-group row">
 					<label for="program" class="col-sm-2 form-control-label">Program</label>
 					<div class="col-sm-10">
-						<select class="form-control">
-							<option selected>Choose a program</option>
-							<option value="1">One</option>
-							<option value="2">Two</option>
-							<option value="3">Three</option>
-						</select>
+						<?php include './lib/programBox.php' ?>
 					</div>
 				</div>
 				<div class="form-group row">

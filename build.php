@@ -4,25 +4,25 @@
 
 // load xml files and store in variables
 // ------------ course_program.xml
-$xmlProgDoc = new DOMDocument(); 
-$xmlProgDoc->load( 'course_programs.xml' ); 
-$xmlprogram = $xmlProgDoc->getElementsByTagName( "program" ); 
+$xmlProgDoc = new DOMDocument();
+$xmlProgDoc->load( 'course_programs.xml' );
+$xmlprogram = $xmlProgDoc->getElementsByTagName( "program" );
 $program_xpath = new DOMXPath( $xmlProgDoc );
 
 
 // ------------ courseterms.xml
-$xmlDoc = new DOMDocument(); 
-$xmlDoc->load( 'courseterms.xml' ); 
-$xml = $xmlDoc->getElementsByTagName( "course" ); 
+$xmlDoc = new DOMDocument();
+$xmlDoc->load( 'courseterms.xml' );
+$xml = $xmlDoc->getElementsByTagName( "course" );
 
 // ------------ course_prerequisite.xml
-$xmlPrereqDoc = new DOMDocument(); 
-$xmlPrereqDoc->load( 'course_prerequisite.xml' ); 
+$xmlPrereqDoc = new DOMDocument();
+$xmlPrereqDoc->load( 'course_prerequisite.xml' );
 $prereq_xpath = new DOMXPath( $xmlPrereqDoc );
 
 // ------------ course_antiequisite.xml
-$xmlAntireqDoc = new DOMDocument(); 
-$xmlAntireqDoc->load( 'course_antirequisite.xml' ); 
+$xmlAntireqDoc = new DOMDocument();
+$xmlAntireqDoc->load( 'course_antirequisite.xml' );
 $antireq_xpath = new DOMXPath( $xmlAntireqDoc );
 
 /*
@@ -34,9 +34,9 @@ THIS PHP FILE WILL GENERATE CLIPS COURSES RULES FOR EACH PROGRAM ex: rules_Appli
 
 */
 // loop thru all programs
-foreach( $xmlprogram as $programNode ) 
+foreach( $xmlprogram as $programNode )
 {
-	
+
 	generateProgramRules($programNode);
 }
 // generate rules for each program and create a file for it
@@ -48,11 +48,11 @@ function generateProgramRules($programNode)
 	$clipsrule ="; #################### THIS FILE WAS GENERATE BY build.php #################### \n";
 
 	// -- for each courseterms
-	foreach( $xml as $coursenode ) 
+	foreach( $xml as $coursenode )
 	{
 			// check if program available.
-			$courseID = $coursenode->getAttribute('id'); 
-			// matching course ids 
+			$courseID = $coursenode->getAttribute('id');
+			// matching course ids
 			$searchForProgramCourse = $program_xpath->query( '//program[@name="'.$programname.'"]//course[@id="'.$courseID.'"]' );
 			//print_r($searchForProgramCourse->length);
 			if ($searchForProgramCourse->length<=0)
@@ -60,80 +60,80 @@ function generateProgramRules($programNode)
 				// this course is not found for this program, continue to next course.
 				continue;
 			}
-			
+
 			// display course id
 			//echo $courseID;
 			// build for clips
-			
+
 			$termsConditions="";
 			$termsPrereq="";
 			$termsAntireq="";
-			
-			
+
+
 			// ---------------- GENERATE PREREQ RULES for this course
 			// ---- get prereq if any
 			$prereqNode = $prereq_xpath->query( '//course[@id="'.$courseID.'"]' );
 			if ($prereqNode->length>0)
 			{
 				//print_r($prereqNode[0]);
-				$prereq = $prereqNode[0]->getElementsByTagName( "prereq" ); 
+				$prereq = $prereqNode[0]->getElementsByTagName( "prereq" );
 				// loop through prereq courses
 				$termsPrereq="";
-				foreach( $prereq as $req ) 
+				foreach( $prereq as $req )
 				{
 					$termsPrereq.="(or ";
 					// loop through each <or>
-					$prereqor = $req->getElementsByTagName( "or" ); 
-					foreach( $prereqor as $orreq ) 
+					$prereqor = $req->getElementsByTagName( "or" );
+					foreach( $prereqor as $orreq )
 					{
 						//echo $orreq->nodeValue;
 						$termsPrereq.="\t (has-taken (course ".$orreq->nodeValue.")) \n";
 					}
 					$termsPrereq.=")\n";
-					
-					
+
+
 				}
 				//echo $termsPrereq;
 				//break;
 			}
 			// ---------------- GENERATE PREREQ RULES for this course END
-			
-			
+
+
 			// ---------------- GENERATE ANTI REQ RULES for this course
 			// ---- get prereq if any
 			$prereqNode = $antireq_xpath->query( '//course[@id="'.$courseID.'"]' );
 			if ($prereqNode->length>0)
 			{
 				//print_r($prereqNode[0]);
-				$prereq = $prereqNode[0]->getElementsByTagName( "antireq" ); 
+				$prereq = $prereqNode[0]->getElementsByTagName( "antireq" );
 				// loop through antireq courses
 				$termsAntireq="";
-				foreach( $prereq as $req ) 
+				foreach( $prereq as $req )
 				{
 					$termsAntireq.="(not (or ";
 					// loop through each <or>
-					$prereqor = $req->getElementsByTagName( "or" ); 
-					foreach( $prereqor as $orreq ) 
+					$prereqor = $req->getElementsByTagName( "or" );
+					foreach( $prereqor as $orreq )
 					{
 						//echo $orreq->nodeValue;
 						$termsAntireq.="\t (has-taken (course ".$orreq->nodeValue.")) \n";
 					}
 					$termsAntireq.="))\n";
-					
-					
+
+
 				}
 				//echo $termsPrereq;
 				//break;
 			}
 			// ---------------- GENERATE ANTI REQ RULES for this course END
-			
-			
+
+
 			// ---------------- GENERATE TERMS RULES for this course
-			$terms = $coursenode->getElementsByTagName( "term" ); 
+			$terms = $coursenode->getElementsByTagName( "term" );
 			if ($terms->length>0)
 			{
 				$termsConditions="(or";
-				foreach( $terms as $term ) 
+				foreach( $terms as $term )
 				{
 					//echo $term->nodeValue;
 					//echo "<br />";
@@ -142,7 +142,7 @@ function generateProgramRules($programNode)
 				$termsConditions .=")";
 			}
 			// ---------------- GENERATE TERMS RULES for this course END
-			
+
 			// output generated rules for each course
 			$clipsrule .="; #################### AUTOGEN RULE FOR COURSE " . $courseID."\n";
 			$clipsrule .=' (defrule can-take-'.$courseID . ' "Eligible for '.$courseID.'?"';
@@ -153,21 +153,21 @@ function generateProgramRules($programNode)
 			$clipsrule .="\n".' (not (has-taken (course '.$courseID.')))';
 			$clipsrule .="\n".' => ';
 			$clipsrule .="\n".' (assert (can-take (course '.$courseID.')))) ';
-			
-			
+
+
 			$clipsrule .= "\n\n";
-		
+
 			//print_r($coursenode);
 			//break;
 
 	} // loop ended for each course
-	
+
 	// save rules
 	$file = 'rules_' . $programname .".clp";
 	file_put_contents($file, $clipsrule);
 	echo "<br />New Rules file generated for <b>". $file."</b>";
 	//echo $clipsrule;
-	
+
 } // end of generateProgramRules
 
 
