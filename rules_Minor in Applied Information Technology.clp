@@ -26,6 +26,8 @@
 ;------- conditions for anti requisite
 (not (or 	 (has-taken (course 60-140)) 
 ))
+(not (or 	 (has-taken (course 60-140)) 
+))
 
  (not (black-list (course 60-106)))
  (not (has-taken (course 60-106)))
@@ -41,8 +43,7 @@
 )
  ;------- conditions for prerequisite 
 (or 	 (has-taken (course 60-104)) 
-)
-(or 	 (has-taken (course 60-106)) 
+	 (has-taken (course 60-106)) 
 	 (has-taken (course 60-140)) 
 )
 
@@ -61,8 +62,7 @@
 )
  ;------- conditions for prerequisite 
 (or 	 (has-taken (course 60-104)) 
-)
-(or 	 (has-taken (course 60-205)) 
+	 (has-taken (course 60-205)) 
 )
 
 ;------- conditions for anti requisite
@@ -113,8 +113,10 @@
 )
  ;------- conditions for prerequisite 
 (or 	 (has-taken (course 60-104)) 
+	 (has-taken (course 60-205)) 
 )
-(or 	 (has-taken (course 60-205)) 
+(or 	 (has-taken (course 60-104)) 
+	 (has-taken (course 60-205)) 
 )
 
 ;------- conditions for anti requisite

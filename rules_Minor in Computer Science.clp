@@ -42,8 +42,7 @@
  ;------- conditions for prerequisite 
 (or 	 (has-taken (course 60-100)) 
 	 (has-taken (course 62-140)) 
-)
-(or 	 (has-taken (course 60-140)) 
+	 (has-taken (course 60-140)) 
 )
 
 ;------- conditions for anti requisite
@@ -62,8 +61,7 @@
 )
  ;------- conditions for prerequisite 
 (or 	 (has-taken (course 60-104)) 
-)
-(or 	 (has-taken (course 60-106)) 
+	 (has-taken (course 60-106)) 
 	 (has-taken (course 60-140)) 
 )
 
@@ -100,8 +98,7 @@
 )
  ;------- conditions for prerequisite 
 (or 	 (has-taken (course 60-100)) 
-)
-(or 	 (has-taken (course 60-141)) 
+	 (has-taken (course 60-141)) 
 )
 
 ;------- conditions for anti requisite

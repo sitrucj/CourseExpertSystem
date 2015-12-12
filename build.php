@@ -73,13 +73,13 @@ function generateProgramRules($programNode)
 			// ---------------- GENERATE PREREQ RULES for this course
 			// ---- get prereq if any
 			$prereqNode = $prereq_xpath->query( '//course[@id="'.$courseID.'"]' );
-			if ($prereqNode->length>0)
+			if (!is_null($prereqNode))
 			{
 				//print_r($prereqNode[0]);
-				$prereq = $prereqNode[0]->getElementsByTagName( "prereq" );
+				//$prereq = $prereqNode[0]->getElementsByTagName( "prereq" );
 				// loop through prereq courses
 				$termsPrereq="";
-				foreach( $prereq as $req )
+				foreach( $prereqNode as $req )
 				{
 					$termsPrereq.="(or ";
 					// loop through each <or>
@@ -102,13 +102,13 @@ function generateProgramRules($programNode)
 			// ---------------- GENERATE ANTI REQ RULES for this course
 			// ---- get prereq if any
 			$prereqNode = $antireq_xpath->query( '//course[@id="'.$courseID.'"]' );
-			if ($prereqNode->length>0)
+			if (!is_null($prereqNode))
 			{
-				//print_r($prereqNode[0]);
-				$prereq = $prereqNode[0]->getElementsByTagName( "antireq" );
+				// print_r($prereqNode);
+				//$prereq = $prereqNode[0]->getElementsByTagName( "antireq" );
 				// loop through antireq courses
 				$termsAntireq="";
-				foreach( $prereq as $req )
+				foreach( $prereqNode as $req )
 				{
 					$termsAntireq.="(not (or ";
 					// loop through each <or>
@@ -163,9 +163,11 @@ function generateProgramRules($programNode)
 	} // loop ended for each course
 
 	// save rules
+
 	$file = 'rules_' . $programname .".clp";
 	file_put_contents($file, $clipsrule);
 	echo "<br />New Rules file generated for <b>". $file."</b>";
+
 	//echo $clipsrule;
 
 } // end of generateProgramRules
