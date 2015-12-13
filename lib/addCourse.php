@@ -13,17 +13,27 @@ $TermsXML= simplexml_load_file("../courseterms.xml") or die("error: can't load t
 
 
 //add course to program XML
-// $i = 0;
-// foreach ($ProgramsXML->program as $program) // search for correct program
-// {
-// 	if ((string)$program['name'] ==  $_POST['program']) {
-// 	break;
-// 	}
-// 	$i += 1;
-// }
-// $newCourse = $ProgramsXML->program[$i]->addChild('course');
-// $newCourse->addAttribute('id', $_POST['course']);
-// $ProgramsXML->asXML('../course_programs.xml');
+$exists = False;
+$i = 0;
+foreach ($ProgramsXML->program as $program) // search for correct program
+{
+	if ((string)$program['name'] ==  $_POST['program']) {
+		foreach ($program->course as $course) {
+			if ((string)$course['id'] == $_POST['course']) {
+				$exists = True;
+				break;
+			}
+		}
+		break;
+	}
+	$i += 1;
+}
+if (!$exists) {
+	$newCourse = $ProgramsXML->program[$i]->addChild('course');
+	$newCourse->addAttribute('id', $_POST['course']);
+	$ProgramsXML->asXML('../course_programs.xml');
+}
+
 
 //add prereqs
 
@@ -51,6 +61,7 @@ if (!$exists) {
 		$newEntry->addChild('term', s);
 	}
 	$TermsXML->asXML('../courseterms.xml'); //save
+	unlink($exists);
 }
 
 
