@@ -166,7 +166,7 @@ function generateProgramRules($programNode)
 
 	$file = 'rules_' . $programname .".clp";
 	file_put_contents($file, $clipsrule);
-	echo "<br />New Rules file generated for <b>". $file."</b>";
+	echo "<br />New Rules file generated for <b>". $file."</b>", PHP_EOL;
 
 	//echo $clipsrule;
 
