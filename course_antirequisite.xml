@@ -42,4 +42,4 @@
 	<course id="60-499">
 		<antireq><or>60-496</or></antireq>
 	</course>
-<course id="99-999"><antireq><or>44-444</or><or>55-555</or></antireq><antireq/><or>66-666</or></course></courses>
+<course id="60-257"><antireq/><or>60-256</or></course></courses>
