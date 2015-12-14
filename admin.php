@@ -75,7 +75,7 @@
 				<div class="form-group row">
 					<label for="course" class="col-sm-2 form-control-label">Course</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="course" placeholder="Course Number: ##-###">
+						<input class="form-control" id="course" name="course" placeholder="Course Number">
 					</div>
 				</div>
 				<div class="form-group row">

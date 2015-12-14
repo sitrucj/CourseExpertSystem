@@ -1,4 +1,8 @@
 <?php
+//
+// this entire file is unused. I was going to loas things seperately but that doesn't seem like the best appraoach for using the xml.
+//
+
 class Program
 {
 	public string $name;
