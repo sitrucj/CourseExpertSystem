@@ -5,10 +5,7 @@ print_r($_POST);
 echo '</br>------------------------		</br>';
 
 $ProgramsXML = simplexml_load_file('../course_programs.xml') or die("Error: can't load programs file");
-
-// list($element) = $doc->xpath('/*/seg[@id="A12"]');
-list($element) = $ProgramsXML->xpath('/*/program[@name="Bachelor of Computer Science (General)"]/course[@id="60-257"]');
-print_r($element);
-
-
+$xpath = '/*/program[@name="'.$_POST['program'].'"]/course[@id="'.$_POST['course'].'"]';
+unset($ProgramsXML->xpath($xpath)[0]->{0});
+$ProgramsXML->asXML('../course_programs.xml');
 ?>

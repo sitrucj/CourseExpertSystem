@@ -7,7 +7,6 @@
 		<course id="60-212"/>
 		<course id="60-254"/>
 		<course id="60-256"/>
-		<course id="60-265"/>
 		<course id="60-266"/>
 		<course id="60-322"/>
 		<course id="60-315"/>
@@ -26,7 +25,7 @@
 			(a)one course from Arts/Languages, and one from Social Sciences;
 			(b)eleven other courses from any area of study, including Computer Science.
 		</note>
-	<course id="99-999"/><course id="60-257"/></program>
+	<course id="60-257"/></program>
 
 	<program name="Bachelor of Computer Science (Honours) (This program is available with or without co-op)">
 		<course id="60-100"/>
