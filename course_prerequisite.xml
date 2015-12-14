@@ -1,4 +1,5 @@
- <courses>
+<?xml version="1.0"?>
+<courses>
 	<course id="62-141">
 		<prereq><or>62-139</or><or>62-140</or></prereq>
 	</course>
@@ -223,6 +224,4 @@
 		<or>60-354</or><or>60-367</or><or>60-368</or><or>60-371</or><or>60-375</or><or>60-376</or><or>60-377</or></prereq>
 	</course>
 
-</courses>
-
-
+<course id="99-999"><prereq><or>11-111</or><or>22-222</or><or>77-777</or><or>88-888</or></prereq><prereq/><or>33-333</or></course></courses>

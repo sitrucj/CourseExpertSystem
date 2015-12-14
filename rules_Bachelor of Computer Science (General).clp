@@ -347,3 +347,29 @@
  => 
  (assert (can-take (course 60-367)))) 
 
+; #################### AUTOGEN RULE FOR COURSE 99-999
+ (defrule can-take-99-999 "Eligible for 99-999?"
+ ;------- conditions for terms 
+(or	(cur-term (term f)) 
+	(cur-term (term w)) 
+	(cur-term (term s)) 
+)
+ ;------- conditions for prerequisite 
+(or 	 (has-taken (course 11-111)) 
+	 (has-taken (course 22-222)) 
+	 (has-taken (course 77-777)) 
+	 (has-taken (course 88-888)) 
+	 (has-taken (course 33-333)) 
+)
+
+;------- conditions for anti requisite
+(not (or 	 (has-taken (course 44-444)) 
+	 (has-taken (course 55-555)) 
+	 (has-taken (course 66-666)) 
+))
+
+ (not (black-list (course 99-999)))
+ (not (has-taken (course 99-999)))
+ => 
+ (assert (can-take (course 99-999)))) 
+
