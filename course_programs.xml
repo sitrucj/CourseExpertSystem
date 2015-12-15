@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
 <courses>
 	<program name="Bachelor of Computer Science (General)">
-		<course id="60-100"/>
+		
 		<course id="60-140"/>
 		<course id="60-141"/>
 		<course id="60-212"/>
 		<course id="60-254"/>
 		<course id="60-256"/>
+		<course id="60-265"/>
 		<course id="60-266"/>
 		<course id="60-322"/>
 		<course id="60-315"/>
@@ -25,10 +26,10 @@
 			(a)one course from Arts/Languages, and one from Social Sciences;
 			(b)eleven other courses from any area of study, including Computer Science.
 		</note>
-	</program>
+	<course id="99-999"/><course id="60-257"/></program>
 
 	<program name="Bachelor of Computer Science (Honours) (This program is available with or without co-op)">
-		<course id="60-100"/>
+		
 		<course id="60-140"/>
 		<course id="60-141"/>
 		<course id="60-212"/>
@@ -66,7 +67,7 @@
 	</program>
 
 		<program name="Bachelor of Computer Science (Honours Applied Computing) (This program is available with or without co-op)">
-		<course id="60-100"/>
+		
 		<course id="60-140"/>
 		<course id="60-141"/>
 		<course id="60-212"/>
@@ -103,7 +104,7 @@
 	</program>
 
 			<program name="Bachelor of Science (Honours Computer Information Systems)">
-		<course id="60-100"/>
+		
 		<course id="60-140"/>
 		<course id="60-141"/>
 		<course id="60-212"/>
@@ -138,7 +139,7 @@
 	</program>
 
 			<program name="Bachelor of Science (Honours Computer Science with Software Engineering Specialization) (This program is available with or without co-op)">
-		<course id="60-100"/>
+		
 		<course id="60-140"/>
 		<course id="60-141"/>
 		<course id="60-212"/>
@@ -181,7 +182,7 @@
 	</program>
 
 	<program name="Concurrent Bachelor of Computer Science (Honours) - Bachelor of Education">
-		<course id="60-100"/>
+		
 		<course id="60-140"/>
 		<course id="60-141"/>
 		<course id="60-212"/>
@@ -231,7 +232,7 @@ Physics	    Six Physics courses which satisfy the requirements for an Honours de
 	</program>
 
 			<program name="Other Combined Honours Programs">
-		<course id="60-100"/>
+		
 		<course id="60-140"/>
 		<course id="60-141"/>
 		<course id="60-212"/>
@@ -261,7 +262,7 @@ Physics	    Six Physics courses which satisfy the requirements for an Honours de
 	</program>
 
 	<program name="Minor in Computer Science">
-		<course id="60-100"/>
+		
 		<course id="60-140"/>
 		<course id="60-141"/>
 		<course id="60-205"/>
@@ -294,7 +295,7 @@ and two of 60-270, 60-209, 60-305 and 60-307.
 	</program>
 
 		<program name="Major and Minor Concentrations - Bachelor of Arts and Science (BAS)">
-		<course id="60-100"/>
+		
 		<course id="60-212"/>
 		<course id="60-254"/>
 		<course id="60-256"/>
@@ -332,7 +333,7 @@ Other requirements:
 	</program>
 
 	<program name="Bachelor of Computer Science (General) for University Graduates">
-		<course id="60-100"/>
+		
 		<course id="60-140"/>
 		<course id="60-141"/>
 		<course id="60-212"/>
@@ -359,7 +360,7 @@ Other requirements:
 	</program>
 
 		<program name="Bachelor of Computer Science (Honours Applied Computing) for University Graduates">
-		<course id="60-100"/>
+		
 		<course id="60-140"/>
 		<course id="60-141"/>
 		<course id="60-212"/>
