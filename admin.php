@@ -95,13 +95,19 @@
 				<div class="form-group row">
 					<label for="program" class="col-sm-2 form-control-label">Program</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="program" placeholder="Program Title: Computer Science General">
+						<input class="form-control" id="program" name="program" placeholder="Program Title: Computer Science General">
 					</div>
 				</div>
 				<div class="form-group row">
 					<label for="courses" class="col-sm-2 form-control-label">Courses</label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" id="course" placeholder="Course Numbers: ##-###, ##-###, ##-### ect.">
+						<input class="form-control" id="courses" name="courses" placeholder="Course Numbers: ##-###, ##-###, ##-### ect.">
+					</div>
+				</div>
+				<div class="form-group row">
+					<label for="notes" class="col-sm-2 form-control-label">Notes</label>
+					<div class="col-sm-10">
+  					<textarea class="form-control" rows="5" id="notes" name="notes"></textarea>
 					</div>
 				</div>
 				<div class="form-group row">
