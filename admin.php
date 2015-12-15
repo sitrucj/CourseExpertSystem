@@ -1,6 +1,6 @@
 <?php
-	//include("auth.php");
-	include('header.php');
+	include("auth.php");
+	//include('header.php');
 ?>
 
 <h2>Admin Pannel</h2>
