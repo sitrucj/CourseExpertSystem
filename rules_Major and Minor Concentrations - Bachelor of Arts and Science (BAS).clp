@@ -37,22 +37,6 @@
  => 
  (assert (can-take (course 62-141)))) 
 
-; #################### AUTOGEN RULE FOR COURSE 60-100
- (defrule can-take-60-100 "Eligible for 60-100?"
- ;------- conditions for terms 
-(or	(cur-term (term f)) 
-	(cur-term (term w)) 
-	(cur-term (term s)) 
-)
- ;------- conditions for prerequisite 
-
-;------- conditions for anti requisite
-
- (not (black-list (course 60-100)))
- (not (has-taken (course 60-100)))
- => 
- (assert (can-take (course 60-100)))) 
-
 ; #################### AUTOGEN RULE FOR COURSE 60-212
  (defrule can-take-60-212 "Eligible for 60-212?"
  ;------- conditions for terms 

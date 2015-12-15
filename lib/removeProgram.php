@@ -1,6 +1,10 @@
 <?php
-	print_r($_POST);
+echo '<a href="/" >Home</a><br>';
+print_r($_POST);
+echo '<br>';
 
-
-	echo '<a href="/" >Home</a>';
+$ProgramsXML = simplexml_load_file('../course_programs.xml') or die("error: can't load course_programs.xml");
+$path = '/*/program[@name="'.$_POST[program].'"]';
+unset($ProgramsXML->xpath($path)[0]->{0});
+$ProgramsXML->asXML('../course_programs.xml');
 ?>
