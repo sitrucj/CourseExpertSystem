@@ -2,7 +2,6 @@
 //Array ( [program] => "Program name" [courses] =>"List of courses" [notes] => "nottes" )
 
 echo '<a href="/" >Home</a><br>';
-print_r($_POST);
 // Load Programs xml
 $ProgramsXML = simplexml_load_file('../course_programs.xml') or die("error: can't load course_programs.xml");
 $path = '/*/program[@name="'.$_POST['program'].'"]';
