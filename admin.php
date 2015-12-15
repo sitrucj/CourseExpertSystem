@@ -79,6 +79,10 @@
 					</div>
 				</div>
 				<div class="form-group row">
+					<label for="removeAll" class="col-sm-2 form-control-label">Remove All Related</label>
+					<div class="col-sm-10"><input id="removeAll" type="checkbox" name="removeAll"> Remove all related prerequisites and antirequisites</div>
+				</div>
+				<div class="form-group row">
 					<div class="col-sm-offset-2 col-sm-10">
 						<button type="submit" class="btn btn-primary">Remove Course</button>
 					</div>

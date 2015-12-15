@@ -216,24 +216,6 @@
  => 
  (assert (can-take (course 60-256)))) 
 
-; #################### AUTOGEN RULE FOR COURSE 60-265
- (defrule can-take-60-265 "Eligible for 60-265?"
- ;------- conditions for terms 
-(or	(cur-term (term f)) 
-	(cur-term (term w)) 
-	(cur-term (term s)) 
-)
- ;------- conditions for prerequisite 
-(or 	 (has-taken (course 60-140)) 
-)
-
-;------- conditions for anti requisite
-
- (not (black-list (course 60-265)))
- (not (has-taken (course 60-265)))
- => 
- (assert (can-take (course 60-265)))) 
-
 ; #################### AUTOGEN RULE FOR COURSE 60-266
  (defrule can-take-60-266 "Eligible for 60-266?"
  ;------- conditions for terms 
@@ -346,26 +328,4 @@
  (not (has-taken (course 60-367)))
  => 
  (assert (can-take (course 60-367)))) 
-
-; #################### AUTOGEN RULE FOR COURSE 60-257
- (defrule can-take-60-257 "Eligible for 60-257?"
- ;------- conditions for terms 
-(or	(cur-term (term f)) 
-	(cur-term (term w)) 
-	(cur-term (term s)) 
-)
- ;------- conditions for prerequisite 
-(or 	 (has-taken (course 60-100)) 
-	 (has-taken (course 60-141)) 
-	 (has-taken (course 60-254)) 
-)
-
-;------- conditions for anti requisite
-(not (or 	 (has-taken (course 60-256)) 
-))
-
- (not (black-list (course 60-257)))
- (not (has-taken (course 60-257)))
- => 
- (assert (can-take (course 60-257)))) 
 
