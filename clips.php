@@ -74,7 +74,7 @@ if (isset($_POST['txtcmd'])) //checking if user passes commands
 	/* FOR DEBUG UNCOMMENT ABOVE LINES */
 
 	// $splitted=explode("(run)",$output);  					// IMPORTANT on windows
-	$splitted=explode("(courseCompleted n)))",$output);		// IMPORTANT on linux
+	$splitted=explode("(courseCompleted n)))",$output);		// IMPORTANT on linuxP
 	$splitted=explode("CLIPS>",$splitted[1]);
 	echo "<pre>" . $splitted[0]."</pre>";
 
