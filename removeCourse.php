@@ -1,8 +1,9 @@
 <?php
 //  Array ( [program] => Bachelor of Computer Science (General) [course] => 60-257 ) [removeAll] => on )
-echo '<a href="/" >Home</a> <h5>POST:</h5>';
-print_r($_POST);
-echo '</br>------------------------		</br>';
+// echo '<a href="/" >Home</a> <h5>POST:</h5>';
+// print_r($_POST);
+// echo '</br>------------------------		</br>';
+include('header.php');
 
 if ($_POST['removeAll']) { // section removes all the related data for the course being removed.
 	$ProgramsXML = simplexml_load_file('../course_programs.xml') or die("error: can't load course_programs.xml");

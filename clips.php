@@ -74,6 +74,7 @@ if (isset($_POST['txtcmd'])) //checking if user passes commands
 
 	// $splitted=explode("(run)",$output);  					// IMPORTANT on windows
 	$splitted=explode("(courseCompleted n)))",$output);		// IMPORTANT on linux
+	// Notice: Undefined offset: 1 in /home/collar2/domains/curtiscollard.ca/public_html/expert/clips.php on line 77 when useing myweb
 	$splitted=explode("CLIPS>",$splitted[1]);
 	echo "<pre>" . $splitted[0]."</pre>";
 

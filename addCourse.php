@@ -3,19 +3,28 @@
 	From the form: Array ( [program] => name [course] => num [prereq] => num [antireq] => num [f] => on [w] => on [s] => on ) -->
 
 <?php
-	print_r($_POST);
-	echo '<a href="/" >Home</a>';
+	// print_r($_POST);
+	// echo '<a href="/" >Home</a>';
+include('header.php');
 
 $ProgramsXML = simplexml_load_file('../course_programs.xml') or die("error: can't load course_programs.xml");
 $AntireqXML= simplexml_load_file("../course_antirequisite.xml") or die("error: can't load antireq xml");
 $PrereqXML= simplexml_load_file("../course_prerequisite.xml") or die("error: can't load prereq xml");
 $TermsXML= simplexml_load_file("../courseterms.xml") or die("error: can't load terms xml");
 
+if (empty($_POST['course'])) {
+	echo '<br>';
+	die('There is was an error in the input. Please fill in the Program and Course');
+} elseif (!(isset($_POST['f'])||isset($_POST['w'])||isset($_POST['s']))) {
+	echo '<br>';
+	die('mus put at least one semester');
+}
+
 
 //add course to program XML
 $exists = False;
 $i = 0;
-foreach ($ProgramsXML->program as $program) // search for correct program
+foreach ($ProgramsXML->program as $program) // search for correct program I later found a better way to do this using xpaths
 {
 	if ((string)$program['name'] ==  $_POST['program']) {
 		foreach ($program->course as $course) {

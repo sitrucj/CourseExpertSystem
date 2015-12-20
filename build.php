@@ -1,6 +1,6 @@
 <?php
 //$xml=simplexml_load_file("courseterms.xml");
-
+include('header.php');
 
 // load xml files and store in variables
 // ------------ course_program.xml

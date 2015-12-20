@@ -4,6 +4,7 @@
 ?>
 
 <h2>Admin Pannel</h2>
+<a class="btn btn-danger" href="build.php">Save and Build Changes</a>
 <div class="tabbable">
   <ul class="nav nav-tabs">
     <li><a href="#listCourses" data-toggle="tab">List Courses</a></li>
@@ -15,15 +16,15 @@
   <div class="tab-content">
     <div class="tab-pane" id="listCourses">
       <h3>Course List by Program</h3>
-			<?php include './lib/listCourses.php';?>
+			<?php include './listCourses.php';?>
 		</div>
 		<div class="active tab-pane" id="addCourse">
 			<h3>Add a Course to a Program</h3>
-			<form action="./lib/addCourse.php" method="post">
+			<form action="./addCourse.php" method="post">
 				<div class="form-group row">
 					<label for="program" class="col-sm-2 form-control-label">Program</label>
 					<div class="col-sm-10">
-						<?php include './lib/programBox.php' ?>
+						<?php include './programBox.php' ?>
 					</div>
 				</div>
 				<div class="form-group row">
@@ -65,11 +66,11 @@
 		</div>
 		<div class="tab-pane" id="removeCourse">
 			<h3>Remove Course from a Program</h3>
-			<form action="./lib/removeCourse.php" method="post">
+			<form action="./removeCourse.php" method="post">
 				<div class="form-group row">
 					<label for="program" class="col-sm-2 form-control-label">Program</label>
 					<div class="col-sm-10">
-						<?php include './lib/programBox.php' ?>
+						<?php include './programBox.php' ?>
 					</div>
 				</div>
 				<div class="form-group row">
@@ -91,7 +92,7 @@
 		</div>
 		<div class="tab-pane" id="addProgram">
 			<h3>Add Program</h3>
-			<form action="./lib/addProgram.php" method="post">
+			<form action="./addProgram.php" method="post">
 				<div class="form-group row">
 					<label for="program" class="col-sm-2 form-control-label">Program</label>
 					<div class="col-sm-10">
@@ -119,11 +120,11 @@
 		</div>
 		<div class="tab-pane" id="removeProgram">
 			<h3>Remove Program</h3>
-			<form action="./lib/removeProgram.php" method="post">
+			<form action="./removeProgram.php" method="post">
 				<div class="form-group row">
 					<label for="program" class="col-sm-2 form-control-label">Program</label>
 					<div class="col-sm-10">
-						<?php include './lib/programBox.php' ?>
+						<?php include './programBox.php' ?>
 					</div>
 				</div>
 				<div class="form-group row">
