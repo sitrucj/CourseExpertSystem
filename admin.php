@@ -2,9 +2,10 @@
 	include("auth.php");
 	//include('header.php');
 ?>
-
-<h2>Admin Pannel</h2>
+<div class="row">
+<h2 class="col-sm-9">Admin Pannel</h2>
 <a class="btn btn-danger" href="build.php">Save and Build Changes</a>
+</div>
 <div class="tabbable">
   <ul class="nav nav-tabs">
     <li><a href="#listCourses" data-toggle="tab">List Courses</a></li>
@@ -81,7 +82,7 @@
 				</div>
 				<div class="form-group row">
 					<label for="removeAll" class="col-sm-2 form-control-label">Remove All Related</label>
-					<div class="col-sm-10"><input id="removeAll" type="checkbox" name="removeAll"> Remove all related prerequisites and antirequisites</div>
+					<div class="col-sm-10"><input id="removeAll" type="checkbox" name="removeAll"> Remove course, prerequisites, and antirequisites from system</div>
 				</div>
 				<div class="form-group row">
 					<div class="col-sm-offset-2 col-sm-10">

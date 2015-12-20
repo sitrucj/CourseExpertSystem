@@ -224,4 +224,4 @@
 		<or>60-354</or><or>60-367</or><or>60-368</or><or>60-371</or><or>60-375</or><or>60-376</or><or>60-377</or></prereq>
 	</course>
 
-<course id="60-100"/></courses>
+<course id="60-100"/><course id="60-257"><prereq><or>60-100</or><or>60-141</or></prereq><prereq/><or>60-254</or></course></courses>

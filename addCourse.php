@@ -7,17 +7,17 @@
 	// echo '<a href="/" >Home</a>';
 include('header.php');
 
-$ProgramsXML = simplexml_load_file('../course_programs.xml') or die("error: can't load course_programs.xml");
-$AntireqXML= simplexml_load_file("../course_antirequisite.xml") or die("error: can't load antireq xml");
-$PrereqXML= simplexml_load_file("../course_prerequisite.xml") or die("error: can't load prereq xml");
-$TermsXML= simplexml_load_file("../courseterms.xml") or die("error: can't load terms xml");
+$ProgramsXML = simplexml_load_file('course_programs.xml') or die("error: can't load course_programs.xml");
+$AntireqXML= simplexml_load_file("course_antirequisite.xml") or die("error: can't load antireq xml");
+$PrereqXML= simplexml_load_file("course_prerequisite.xml") or die("error: can't load prereq xml");
+$TermsXML= simplexml_load_file("courseterms.xml") or die("error: can't load terms xml");
 
-if (empty($_POST['course'])) {
-	echo '<br>';
+if ($_POST['program'] == 'Choose a Program'){
+	die('Must choose a program');
+} elseif (empty($_POST['course'])) {
 	die('There is was an error in the input. Please fill in the Program and Course');
 } elseif (!(isset($_POST['f'])||isset($_POST['w'])||isset($_POST['s']))) {
-	echo '<br>';
-	die('mus put at least one semester');
+	die('must choose at least one semester');
 }
 
 
@@ -40,10 +40,10 @@ foreach ($ProgramsXML->program as $program) // search for correct program I late
 if (!$exists) {
 	$newCourse = $ProgramsXML->program[$i]->addChild('course');
 	$newCourse->addAttribute('id', $_POST['course']);
-	$ProgramsXML->asXML('../course_programs.xml');
+	$ProgramsXML->asXML('course_programs.xml') or die('Error saving program');
 	unset($exists);
 	unset($newCourse);
-}
+} else die($_POST['course'].' already exists in '.$_POST['program'].' Check the course lists.');
 
 
 //add prereqs
@@ -79,7 +79,7 @@ if (!$exists){
 			$newCourse->addChild('or', $arr[0]);
 		}
 	}
-	$PrereqXML->asXML("../course_prerequisite.xml");
+	$PrereqXML->asXML("course_prerequisite.xml") or die('error saving prereqs');
 	unset($exists);
 }
 
@@ -112,7 +112,7 @@ if (!$exists){
 			$newCourse->addChild('or', $arr[0]);
 		}
 	}
-	$AntireqXML->asXML("../course_antirequisite.xml") or die('error saving');
+	$AntireqXML->asXML("course_antirequisite.xml") or die('error saving antireqs');
 	unset($exists);
 }
 
@@ -137,9 +137,9 @@ if (!$exists) {
 	if ($_POST['s']) {
 		$newEntry->addChild('term', s);
 	}
-	$TermsXML->asXML('../courseterms.xml'); //save
+	$TermsXML->asXML('courseterms.xml') or die("Something went wrong when the course terms."); //save
 	unset($exists);
 }
 
-
+echo "Saved ".$_POST['course']." to ".$_POST['program'];
 ?>
