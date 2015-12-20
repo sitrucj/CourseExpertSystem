@@ -62,9 +62,9 @@ if (isset($_POST['txtcmd'])) //checking if user passes commands
 
 	// -------------- call CLIPS to execute command from file (onlinecmd.clp)
 	//$doscmd='"C:\Program Files (x86)\CLIPS/CLIPSDOS64.exe"  -f '. $file;
-	//$doscmd='"clips/CLIPSDOS.exe"  -f '. $file;
+	//$doscmd='"clips/CLIPSDOS.exe"  -f '. $file;P
 		//$doscmd='/Users/curtis/bin/clips -f '.$file;
-		$doscmd='/usr/bin/clips '.$file;
+		$doscmd='/usr/bin/clips -f'.$file;
 		$output = shell_exec($doscmd);
 
 	/* FOR DEBUG UNCOMMENT BELOW LINES */
