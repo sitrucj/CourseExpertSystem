@@ -12,7 +12,7 @@ $AntireqXML= simplexml_load_file("course_antirequisite.xml") or die("error: can'
 $PrereqXML= simplexml_load_file("course_prerequisite.xml") or die("error: can't load prereq xml");
 $TermsXML= simplexml_load_file("courseterms.xml") or die("error: can't load terms xml");
 
-if ($_POST['program'] == 'Choose a Program'){
+if ($_POST['program'] == 'Choose a program'){
 	die('Must choose a program');
 } elseif (empty($_POST['course'])) {
 	die('There is was an error in the input. Please fill in the Program and Course');
