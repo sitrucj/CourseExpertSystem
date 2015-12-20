@@ -40,7 +40,7 @@ if ($_POST['removeAll']) { // section removes all the related data for the cours
 	unset($ProgramsXML->xpath($xpath)[0]->{0});
 	$ProgramsXML->asXML('course_programs.xml') or die("Something went wrong when saving.");
 }
-echo $_POST['course']." removed;
+echo $_POST['course']." removed";
 
 
 ?>
